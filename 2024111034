@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- octahedral -->
+      <a-entity geometry="primitive: octahedron; radius: 1.2"
+                position="-6 1.2 -10"
+                material="color: #FF69B4">
+      </a-entity>
+
+      <!-- 20 side shape -->
+      <a-entity geometry="primitive: icosahedron; radius: 1.5"
+                position="0 1.5 -14"
+                material="color: #00CED1">
+      </a-entity>
+
+      <!-- tetrahedral -->
+      <a-entity geometry="primitive: tetrahedron; radius: 1"
+                position="6 1 -11"
+                material="color: #FFD700">
+      </a-entity>
+
+      
+      <a-plane position="0 0 -12"
+               rotation="-90 0 0"
+               width="25"
+               height="25"
+               color="#A0D6B4">
+      </a-plane>
+
+     
+    </a-scene>
+
+    <p>
+      Use this AFrameJS <a href="https://aframe.io/docs/1.7.0/components/geometry.html" target="_blank">resource</a>.
+      Submit your <rollnumber>.html page in your github.io page i.e. https://<yourdomain>.github.io/<rollnumber>.html
+      and submit <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=vDsaA3zPK06W7IZ1VVQKHFzW4INMf2JMjyL9qPnlPbNUMkpZQkY1SlpKWUtQWTY5RVVNS0k2RFQyRi4u" target="_blank">here</a>
+    </p>
+  </body>
+</html>
+<!--im not changing the structure im only changhing the shapes pls consider-->
